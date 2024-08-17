@@ -1,0 +1,102 @@
+body {
+    background-image: url('Gradient.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Repeat the image across the page */
+    color: #FFFFFF; /* White text color for better readability */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #00FFFF; /* Cyan color for the heading */
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px; /* Large font size for the main heading */
+    text-shadow: 2px 2px 4px #000000; /* Add shadow for better visibility */
+}
+
+h2 {
+    color: gold; /* Gold color for subheadings */
+    text-align: left;
+    margin-top: 30px;
+    font-size: 28px; /* Medium font size for subheadings */
+    border-bottom: 2px solid #FFFFFF; /* Add underline for subheadings */
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #C0C0C0; /* Silver color for project titles */
+    text-align: left;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-size: 24px; /* Slightly larger font for project titles */
+}
+
+p {
+    color: #00FFFF; /* Burnt orange color for paragraphs */
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 18px; /* Larger font for better readability */
+    line-height: 1.6; /* Improve line spacing */
+}
+
+.highlight-yellow {
+    color: yellow;
+}
+
+.highlight-white {
+    background-color: white;
+    color: black;
+    padding: 5px 10px; /* Add more padding for emphasis */
+    border-radius: 4px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold; /* Change link color on hover */
+    text-decoration: underline; /* Underline links on hover */
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Center the social links */
+    margin: 20px 0;
+}
+
+.social-link {
+    margin: 0 15px; /* Increase space between icons */
+}
+
+button, .styled-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px left; /* Center buttons and add spacing */
+    display: block;
+    margin-top: 20px;
+}
+
+button:hover, .styled-button:hover {
+    background-color: darkgoldenrod;
+}
+
+img[src="mk.jpg"] {
+    border: 5px solid #FFFFFF; /* Add a white border to the image */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6); /* Add shadow to the image */
+}
